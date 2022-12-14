@@ -1,0 +1,5 @@
+Aula 25:
+Listas ordenadas e não ordenadas
+Aula 26:
+Listas mistas e de definição
+- Segurar alt para apagar várias letras junto

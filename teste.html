@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Static Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class='subscription-form-title'>
+        <img class='logo' src='images/logo.png'/>
+        <h1>Get a Netflix subscription for free!</h1>
+        <p>Fill this form and get a Netflix subscription for an entire year!!!!</p>
+    </div>
+    <form action='' method='post' class='subscription-form'>
+        <div class='form-row'>
+            <div class='form-item'>
+                <label for='full-name'>Full Name</label>
+                <input id='full-name' type='text' name='name'/>
+            </div>
+            <div class='form-item'>
+                <label for='card-cvv'>Card CVV</label>
+                <input id='card-cvv' type='text' name='card-cvv' maxlength="3"/>
+            </div>
+        </div>
+        <div class='form-row'>
+            <div class='form-item'>
+                <label for='card-number'>Credit Card Number</label>
+                <input id='card-number' type='text' name='card-number' maxlength="16"/>
+            </div>
+        </div>
+        <div class='form-row'>
+            <div class='form-item'>
+                <label for='card-expiration'>Card Expiration Date</label>
+                <input id='card-expiration' type='month' value='2020-06' name='card-expiration'/>
+            </div>
+        </div>
+        <div class='form-row'>
+            <button type="button" class="submitButton">Get Free Subscription!</button>
+        </div>
+    </form>
+    <script src="./netflix.js"></script>
+  </body>
+</html>

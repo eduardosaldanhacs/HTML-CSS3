@@ -1,0 +1,32 @@
+		BOX-LEVEL 
+*Sempre inicia em uma nova linha
+*Sempre ocupa a largura inteira da tela
+exemplos:
+<div>
+<h1>~<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+		INLINE-LEVEL
+*Não precisa iniciar em uma nova linha
+*Não ocupa a largura inteira
+exemplos: 
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>~<sub>
+<label>
+<button>
+<input>
+<select>
+
